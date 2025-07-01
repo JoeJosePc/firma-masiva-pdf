@@ -5,7 +5,7 @@ Este script en Python permite **firmar masivamente archivos PDF** dentro de una 
 ## 🧾 Descripción
 
 El script recorre una estructura de carpetas con la siguiente jerarquía:
-
+```bash
 D:/firmar_masivo_anual/
 ├── 2020/
 │ ├── enero/
@@ -17,7 +17,7 @@ D:/firmar_masivo_anual/
 │ └── ...
 ├── imagen/
 │ └── firma.png
-
+```
 
 > Se admiten los años **2020 a 2024** y meses en español en minúsculas: `enero`, `febrero`, ..., `diciembre`.
 
@@ -37,7 +37,7 @@ El archivo firmado se guarda en una subcarpeta `firmados/` con el nombre `nombre
 # Para Pruebas
 
 Estructura de carpetas para realizar pruebas
-
+```bash
 ├── firmar_masivo_anual/
 |   └── 2020/
 │   |   └── enero/
