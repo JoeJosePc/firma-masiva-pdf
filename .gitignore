@@ -1,0 +1,17 @@
+# Entornos virtuales
+env/
+.venv/
+venv/
+
+# Archivos compilados y carpetas temporales
+__pycache__/
+*.py[cod]
+
+# PyInstaller build
+dist/
+build/
+*.spec
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
